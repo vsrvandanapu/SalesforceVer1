@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 271.079 s <<< FAILURE! - in runner.TestRunner
+Login with invalid credentials(Verify Login Functionality)  Time elapsed: 29.592 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with valid email and invalid password(Verify Login Functionality)  Time elapsed: 29.696 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with invalid email and valid password(Verify Login Functionality)  Time elapsed: 29.648 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=116.0.5845.96)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7376abf15d5521ac339f367aa9a0b54, clickElement {id=5CBD5FCBBE02FE5416D86EA7370A99C3_element_23}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\A1\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60341/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7376abf15d5521ac339f367aa9a0b54)] -> css selector: #Login]
+Session ID: a7376abf15d5521ac339f367aa9a0b54
+
